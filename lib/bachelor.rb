@@ -11,7 +11,7 @@ winner = nil
       end
     end
   end
-  winner
+  winner.split(" ")[0]
 end
 
 def get_contestant_name(data, occupation)

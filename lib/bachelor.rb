@@ -58,9 +58,10 @@ age_list = []
   data[season].each do |full_contestant_data_array|
     age_list << full_contestant_data_array["age"]
       full_contestant_data_array["name"]
-      # end
+      end
     end
   end
   age_list
   binding.pry
+end
 end

@@ -22,6 +22,7 @@ data.map do |season, every_contestant_array|
       end
     end
   end
+  binding.pry
 contestant
 end
 end

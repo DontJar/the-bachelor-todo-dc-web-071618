@@ -40,7 +40,17 @@ hometown_count = 0
 end
 
 def get_occupation(data, hometown)
-  # code here
+occupation_list = []
+  data.map do |season, every_contestant_array|
+    every_contestant_array.map do |full_contestant_data_array|
+      full_contestant_data_array.map do |facts|
+        if facts[1] == hometown
+          occupation_list << full_contestant_data_array["name"]
+        end
+      end
+    end
+  end
+  pry
 end
 
 def get_average_age_for_season(data, season)

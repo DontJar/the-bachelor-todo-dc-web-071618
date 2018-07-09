@@ -60,9 +60,7 @@ age_list = []
       full_contestant_data_array["name"]
       end
     end
+    age_list
+    binding.pry
+
   end
-  age_list
-  binding.pry
-end
-end
-end

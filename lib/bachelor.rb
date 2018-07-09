@@ -16,7 +16,6 @@ contestant = nil
 data.map do |season, every_contestant_array|
   every_contestant_array.map do |full_contestant_data_array|
     full_contestant_data_array.map do |facts|
-      # binding.pry
       if facts[1] == occupation
         contestant = full_contestant_data_array["name"]
       end

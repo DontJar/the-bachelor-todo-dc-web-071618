@@ -61,4 +61,3 @@ binding.pry
   end
   age_list
 end
-

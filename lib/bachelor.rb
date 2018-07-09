@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
     full_contestant_data_array.each do |facts|
       facts.each do |stat, fact|
         binding.pry
-        if fact == "Winner"
+        if facts[1] == "Winner"
           full_contestant_data["name"]
         end
       end

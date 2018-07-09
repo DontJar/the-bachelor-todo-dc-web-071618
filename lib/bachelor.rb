@@ -20,8 +20,9 @@ data.each do |season, every_contestant_array|
         contestant = full_contestant_data_array["name"]
       end
     end
-  # end
+  end
 contestant
+end
 end
 
 def count_contestants_by_hometown(data, hometown)

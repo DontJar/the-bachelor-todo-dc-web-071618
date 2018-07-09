@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
       facts.each do |stat, fact|
         if fact == "Winner"
           full_contestant_data["name"]
+        end
       end
     end
   end

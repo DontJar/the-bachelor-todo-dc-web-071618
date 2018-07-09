@@ -50,7 +50,7 @@ occupation_list = []
       end
     end
   end
-  pry
+  binding.pry
 end
 
 def get_average_age_for_season(data, season)

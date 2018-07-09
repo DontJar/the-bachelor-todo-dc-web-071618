@@ -2,6 +2,7 @@ require "pry"
 def get_first_name_of_season_winner(data, season)
   data[season].each do |full_contestant_data_array|
     full_contestant_data_array.each do |facts|
+      binding.pry
       facts.each do |stat, fact|
         if fact == "Winner"
           full_contestant_data["name"]
@@ -9,7 +10,6 @@ def get_first_name_of_season_winner(data, season)
       end
     end
   end
-    binding.pry
 end
 
 def get_contestant_name(data, occupation)

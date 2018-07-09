@@ -3,10 +3,8 @@ def get_first_name_of_season_winner(data, season)
 winner = nil
   data[season].each do |full_contestant_data_array|
     full_contestant_data_array.each do |facts|
-      # facts.each do |x|
-        if facts[1] == "Winner"
-          winner = full_contestant_data_array["name"]
-        # end
+      if facts[1] == "Winner"
+        winner = full_contestant_data_array["name"]
       end
     end
   end

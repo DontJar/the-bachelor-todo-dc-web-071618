@@ -6,7 +6,7 @@ winner = nil
       # facts.each do |x|
         if facts[1] == "Winner"
           winner = full_contestant_data_array["name"]
-        end
+        # end
       end
     end
   end

@@ -65,5 +65,3 @@ age_list = []
     end
   end
   # occupation_list[0]
-end
-end

@@ -45,7 +45,7 @@ occupation_list = []
     every_contestant_array.map do |full_contestant_data_array|
       full_contestant_data_array.map do |facts|
         if facts[1] == hometown
-          occupation_list << full_contestant_data_array["name"]
+          occupation_list << full_contestant_data_array["occupation"]
         end
       end
     end

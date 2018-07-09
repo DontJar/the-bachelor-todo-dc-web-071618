@@ -61,5 +61,5 @@ age_list = []
       end
     end
   end
-  winner.split(" ")[0]
+  age_list
 end

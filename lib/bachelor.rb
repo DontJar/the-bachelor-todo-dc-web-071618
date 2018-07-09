@@ -57,9 +57,9 @@ def get_average_age_for_season(data, season)
 age_list = []
 age_total = 0
   data[season].each do |full_contestant_data_array|
-    # age_list << full_contestant_data_array["age"].to_i
+    age_list << full_contestant_data_array["age"].to_i
     age_total = age_total + full_contestant_data_array["age"].to_i
   end
   binding.pry
-  age_total
+  age_total / age_list.size
 end

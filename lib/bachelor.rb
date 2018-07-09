@@ -53,15 +53,15 @@ occupation_list = []
   occupation_list[0]
 end
 
-def get_average_age_for_season(data, season)
-age_list = []
-  data[season].each do |full_contestant_data_array|
-    age_list << full_contestant_data_array["age"]
-      full_contestant_data_array["name"]
-      end
-    end
-  end
-  age_list
-  binding.pry
-end
-end
+# def get_average_age_for_season(data, season)
+# age_list = []
+#   data[season].each do |full_contestant_data_array|
+#     age_list << full_contestant_data_array["age"]
+#       full_contestant_data_array["name"]
+#       end
+#     end
+#   end
+#   age_list
+#   binding.pry
+# end
+# end

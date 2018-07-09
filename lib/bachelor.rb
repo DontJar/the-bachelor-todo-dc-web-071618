@@ -60,6 +60,5 @@ age_total = nil
     # age_list << full_contestant_data_array["age"].to_i
     age_total = age_total + full_contestant_data_array["age"].to_i
   end
-
   binding.pry
 end

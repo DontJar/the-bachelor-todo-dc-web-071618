@@ -60,6 +60,5 @@ age_total = 0
     age_list << full_contestant_data_array["age"].to_i
     age_total = age_total + full_contestant_data_array["age"].to_i
   end
-  binding.pry
   (age_total.to_f/age_list.size).round
 end

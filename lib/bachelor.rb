@@ -62,4 +62,5 @@ age_list = []
     end
   end
   age_list
+  binding.pry
 end

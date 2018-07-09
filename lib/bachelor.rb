@@ -22,9 +22,8 @@ data.map do |season, every_contestant_array|
       end
     end
   end
-  binding.pry
-contestant
 end
+contestant
 end
 
 def count_contestants_by_hometown(data, hometown)

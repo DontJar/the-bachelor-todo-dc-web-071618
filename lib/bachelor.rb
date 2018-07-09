@@ -22,7 +22,7 @@ data.map do |season, every_contestant_array|
       end
     end
   end
-contestant
+contestant[0]
 end
 end
 

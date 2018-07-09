@@ -59,6 +59,7 @@ age_list = []
     every_contestant_array.map do |full_contestant_data_array|
       full_contestant_data_array.map do |facts|
         facts["age"]
+        binding.pry
         end
       end
     end

@@ -12,7 +12,15 @@ winner = nil
 end
 
 def get_contestant_name(data, occupation)
-binding.pry
+contestant = nil
+data[season].each do |full_contestant_data_array|
+  full_contestant_data_array.each do |facts|
+    if facts[1] == occupation
+      contestant = full_contestant_data_array["name"]
+    end
+  end
+end
+contestant
 end
 
 def count_contestants_by_hometown(data, hometown)

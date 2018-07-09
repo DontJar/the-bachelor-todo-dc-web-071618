@@ -13,20 +13,20 @@ end
 
 def get_contestant_name(data, occupation)
 contestant = nil
-data.map do |season, every_contestant_array|
-  every_contestant_array.map do |full_contestant_data_array|
-    full_contestant_data_array.map do |facts|
-      if facts[1] == occupation
-        contestant = full_contestant_data_array["name"]
+  data.map do |season, every_contestant_array|
+    every_contestant_array.map do |full_contestant_data_array|
+      full_contestant_data_array.map do |facts|
+        if facts[1] == occupation
+          contestant = full_contestant_data_array["name"]
+        end
       end
     end
   end
-end
-contestant
+  contestant
 end
 
 def count_contestants_by_hometown(data, hometown)
-  # code here
+  
 end
 
 def get_occupation(data, hometown)

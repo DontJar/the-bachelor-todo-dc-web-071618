@@ -54,5 +54,14 @@ occupation_list = []
 end
 
 def get_average_age_for_season(data, season)
-  # code here
+age_list = []
+  data.map do |season, every_contestant_array|
+    every_contestant_array.map do |full_contestant_data_array|
+      full_contestant_data_array.map do |facts|
+        facts["age"]
+        end
+      end
+    end
+  end
+  # occupation_list[0]
 end
